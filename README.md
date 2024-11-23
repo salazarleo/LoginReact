@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+Aqui está um modelo de README bem estruturado para o seu projeto. Ele explica as funcionalidades e inclui as imagens das telas de acesso, registro e recuperação de senha.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Telalogin - Sistema de Login
 
-In the project directory, you can run:
+Este é um sistema de login simples desenvolvido com **React**. O projeto permite aos usuários acessar, registrar-se e recuperar a senha de suas contas. Ele é projetado para ser uma base sólida para sistemas que exigem autenticação de usuários.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Tela de Login**: O usuário pode inserir suas credenciais para acessar o sistema.
+- **Tela de Registro**: Caso o usuário ainda não tenha uma conta, ele pode se registrar facilmente.
+- **Recuperação de Senha**: O sistema permite que os usuários que esqueceram suas senhas solicitem a recuperação.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Telas
 
-### `npm run build`
+### 1. Tela de Acesso (Login)
+A tela inicial onde os usuários inserem o e-mail e a senha para acessar o sistema.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Tela de Acesso](public/imgs/tela_1.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Tela de Registro
+Caso o usuário não tenha uma conta, ele pode se registrar nesta tela.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Tela de Registro](public/imgs/tela_2.png)
 
-### `npm run eject`
+### 3. Tela de Recuperação de Senha
+Se o usuário esquecer a senha, ele pode acessar esta tela para recuperar o acesso à sua conta.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Tela de Recuperação de Senha](public/imgs/tela_3.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Como Rodar o Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clonar o Repositório
 
-## Learn More
+Clone o repositório para o seu ambiente local:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/salazarleo/LoginReact
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2. Instalar as Dependências
 
-### Code Splitting
+Navegue até a pasta do projeto e instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd telalogin
+npm install
+```
 
-### Analyzing the Bundle Size
+### 3. Rodar o Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Após a instalação das dependências, execute o projeto:
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+O projeto será iniciado em `http://localhost:3000`.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Tecnologias Usadas
 
-### Deployment
+- **React**: Biblioteca para construção da interface de usuário.
+- **React Router**: Utilizado para navegação entre as telas (Login, Registro, Recuperação de Senha).
+- **React Icons**: Ícones usados para melhorar a experiência do usuário.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contribuições são bem-vindas! Se você deseja melhorar este projeto, sinta-se à vontade para abrir um **pull request**.
+
+---
+
+## License
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+**Autor**: Leonardo Salazar
+
+---
+
+### Observação
+
+Se você tiver alguma dúvida ou sugestão, entre em contato! Espero que este sistema de login seja útil para o seu projeto.
+
+---
+
+### Explicações:
+
+- Substitua `https://github.com/salazarleo/LoginReact` pelo seu link do GitHub.
+- As imagens foram inseridas com o caminho relativo `public/imgs/` para garantir que funcionem quando você fizer o upload no repositório.
+- O projeto está configurado para ser executado localmente com `npm start`, assumindo que você já tenha o **Node.js** e o **npm** instalados.
+
+Este README oferece uma descrição clara do projeto e como usar as funcionalidades, e as imagens das telas ajudam a demonstrar visualmente como o sistema funciona.
